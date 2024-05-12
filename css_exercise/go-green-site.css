@@ -1,0 +1,145 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.site {
+    height: 1000px;
+    width: 1200px;
+}
+    .header {
+        height: 8%;
+        width: 100%;
+    }
+        .header-left {
+            background-image: url(../css_exercise/img/logo.jpg);
+            background-repeat: no-repeat;
+            background-position: 50%;
+            height: 100%;
+            width: 20%;
+            float: left;
+        }
+        .header-right {
+            background-image: url(../css_exercise/img/mainlogo.jpg);
+            background-repeat: no-repeat;
+            background-position-x: 20%;
+            background-size: contain;
+            height: 100%;
+            width: 80%;
+            float: left;
+        }
+    .navigator {
+        height: 3%;
+        width: 100%;
+        background-color: rgb(84, 167, 0);
+        margin-bottom: 10px;
+    }
+    .main {
+        height: 63%;
+        width: 100%;
+    }
+        .main-left {
+            height: 100%;
+            width: 15%;
+            background-image: url(../css_exercise/img/left_img.jpg);
+            background-repeat: no-repeat;
+            float: left;
+        }
+        .main-center {
+            height: 95%;
+            width: 60%;
+            float: left;
+            text-align: center;
+            margin-top: 10px;
+        }
+            .left-1 {
+                height: 50%;
+                width: 50%;
+                float: left;
+            }
+            .right-1 {
+                height: 50%;
+                width: 50%;
+                float: left;
+            }
+            .left-2 {
+                height: 50%;
+                width: 50%;
+                float: left;
+            }
+            .right-2 {
+                height: 50%;
+                width: 50%;
+                float: left;
+            }
+        .main-right {
+            width: 25%;
+            height: 77%;
+            float: left;
+        }
+            .login {
+                width: 100%;
+                height: 25%;
+            }
+                .login-header {
+                    width: 100%;
+                    height: 60%;
+                }
+                    .login-header-left {
+                        width: 70%;
+                        height: 100%;
+                        float: left;
+                    }
+                        input {
+                            outline: none;
+                            border: none;
+                            padding: 0;
+                            margin: 0;
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .id-field {
+                            width: 90%;
+                            height: 50%;
+                            border: 1px solid black;
+                        }
+                        .pw-field {
+                            width: 90%;
+                            height: 50%;
+                            border: 1px solid black;
+                        }
+                    .login-header-right {
+                        width: 30%;
+                        height: 100%;
+                        float: left;
+                    }
+                        .login-btn {
+                            width: 70%;
+                            height: 90%;
+                            margin-top: 5px;
+                        }
+                .login-footer {
+                    width: 100%;
+                    height: 40%;
+                    text-align: center;
+                }
+                    a {
+                        text-decoration-line: none;
+                    }
+            .main-right-img1 {
+                width: 100%;
+                height: 60%;
+                background-image: url(../css_exercise/img/right_img.jpg);
+            }
+            .main-right-img2 {
+                width: 100%;
+                height: 40%;
+                background-image: url(../css_exercise/img/me_chat.jpg);
+                background-repeat: no-repeat;
+            }
+        .footer {
+            width: 100%;
+            height: 14%;
+            background-image: url(../css_exercise/img/footer.JPG);
+            background-repeat: no-repeat;
+            background-position-x: 58%;
+        }
